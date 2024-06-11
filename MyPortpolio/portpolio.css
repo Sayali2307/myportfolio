@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+
+ /* .container{
+    background-color: black;
+padding: 10px 70px;
+ } */
+
+.heroprofile{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.heroprofile img{
+    width: 120px;
+    border-radius: 40%;
+
+}
+
+.heroprofile .user{
+    color: white;
+    margin-top: 5px;
+}
+
+.heroprofile .tagline{
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+ .contact a{
+    color: blue ;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px white solid;
+    background-color: white;
+}
+
+.heroprofile .contact :hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.whyme_header,.skills.skill li{
+    color: cyan; 
+    text-align: center;
+}
+
+.whyme .first{
+    display: grid;
+    /* border: 1px solid wheat; */
+    margin-right: 20px;
+    /* grid-template-columns: auto auto;
+    margin-top: 40px; */
+}
+
+.feature_text,.feature_key li{
+ color: white;
+ margin-left: 50px;
+}
+
+/* .feature_pic img{
+width: 100px;
+} */
+
+
+/* .feature_pic .second{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+
+.skills h2,.projects h2,.feature_key h3{
+    color: cyan;
+    text-align: center;
+}
+
+.skills .skillgrid,.projects .project_flex,.whyme .first{
+    display:flex;
+    margin-left: 30px;
+
+}
+
+.skills .skill{
+    width: 50%;
+    border: 1px solid white;
+    margin: 3px 2px;
+
+}
+.skillgrid h3 {
+margin: 20px 25px;   
+ grid-template-columns: auto auto;
+    margin-top: 40px;
+    color: cyan;
+    text-align: center;
+
+}
+
+.skill_text li{
+    color: white;
+}
+
+
+/* .skill_text li :hover{
+    color: grey;
+}  */
+
+/* .projects .project_flex {
+    display: grid;
+
+} */
+
+  .card_top img{
+    display: flex;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 25%;
+    /* align-items: center; */
+}
+
+ .card_heading {
+    color: cyan;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card .card_text{
+    margin-top: 10px;
+ color: white;
+ margin-left: 5px;
+}
+
+
+.projects .card{
+    width: 50%;
+    border: 1px solid white;
+    margin: 3px 2px;
+    margin-left: 30px;
+
+}
+
+.feature_key{
+    border: 1px solid white;
+}
+
+footer{
+width: 100%;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    background-color:rgb(255, 221, 0);
+}
